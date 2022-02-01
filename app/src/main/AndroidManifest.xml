@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uitest">
+
+    <application
+        android:name=".AutoLogin"
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="KFns"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UItest">
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondAutoSc"/>
+        <activity android:name=".MainPage"/>
+        <activity android:name=".ErCallPage"/>
+        <activity android:name=".FireReport"/>
+        <activity android:name=".ReportListPage"/>
+        <activity android:name=".ReportShowPage"/>
+        <activity android:name=".SearchListPage"/>
+        <activity android:name=".PasswordChange"
+            android:windowSoftInputMode="adjustPan"/>
+
+    </application>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+</manifest>

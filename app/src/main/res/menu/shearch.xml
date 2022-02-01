@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/searchDate"
+        android:title="날짜" />
+    <item
+        android:id="@+id/searchAcc"
+        android:title="사고" />
+    <item
+        android:id="@+id/searchBud"
+        android:title="건물" />
+</menu>

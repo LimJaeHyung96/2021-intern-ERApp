@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="1층" />
+    <item android:title="2층" />
+    <item android:title="3층" />
+    <item android:title="4층" />
+    <item android:title="5층" />
+    <item android:title="6층" />
+    <item android:title="7층" />
+    <item android:title="8층" />
+    <item android:title="9층" />
+    <item android:title="10층" />
+    <item android:title="11층" />
+    <item android:title="12층" />
+    <item android:title="13층" />
+    <item android:title="14층" />
+</menu>

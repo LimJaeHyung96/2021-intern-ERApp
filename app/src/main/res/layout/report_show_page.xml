@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:weightSum="20">
+
+
+    <TextView
+        android:id="@+id/reportTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KT OO빌딩 XX발생보고"
+        android:textSize="30dp"
+        android:layout_weight="2"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/reportDate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="xxxx-xx-xx xx:xx에 등록"
+            android:layout_weight="1"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/EMP_NUMB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="작성자 : OOO"
+            android:gravity="center|right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="16.5"
+        android:weightSum="11"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle">
+
+        <TextView
+            android:id="@+id/reportTitleMini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:text="-KT OO빌딩 XX발생보고"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-주소 : xx도 xx시 xx구 xx로 xx번길"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-발생일시 : xxxx-xx-xx xx:xx"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-사고내용 : 작성 중"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-조치사항 : 조치 중"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-피해사항 : 확인 중"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-사고원인 : 확인 중"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-현재상황 : 피해상황 확인 및 조치중"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-FM사 : KFnS"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-PM장 : OOO"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-주요고객 : KT"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center|left"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="수정" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="삭제" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>
